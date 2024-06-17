@@ -1,6 +1,6 @@
 module github.com/syncthing/syncthing
 
-go 1.21.0
+go 1.22.4
 
 require (
 	github.com/AudriusButkevicius/recli v0.0.7-0.20220911121932-d000ce8fbf0f
@@ -30,7 +30,7 @@ require (
 	github.com/oschwald/geoip2-golang v1.11.0
 	github.com/pierrec/lz4/v4 v4.1.21
 	github.com/prometheus/client_golang v1.19.1
-	github.com/quic-go/quic-go v0.44.0
+	github.com/quic-go/quic-go v0.45.0
 	github.com/rabbitmq/amqp091-go v1.10.0
 	github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475
 	github.com/shirou/gopsutil/v3 v3.24.5
@@ -41,13 +41,13 @@ require (
 	github.com/vitrun/qart v0.0.0-20160531060029-bf64b92db6b0
 	github.com/willabides/kongplete v0.4.0
 	go.uber.org/automaxprocs v1.5.3
-	golang.org/x/crypto v0.23.0
-	golang.org/x/net v0.25.0
-	golang.org/x/sys v0.20.0
-	golang.org/x/text v0.15.0
+	golang.org/x/crypto v0.24.0
+	golang.org/x/net v0.26.0
+	golang.org/x/sys v0.21.0
+	golang.org/x/text v0.16.0
 	golang.org/x/time v0.5.0
-	golang.org/x/tools v0.21.0
-	google.golang.org/protobuf v1.34.1
+	golang.org/x/tools v0.22.0
+	google.golang.org/protobuf v1.34.2
 )
 
 require (
@@ -68,7 +68,7 @@ require (
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-multierror v1.1.1 // indirect
-	github.com/klauspost/cpuid/v2 v2.2.7 // indirect
+	github.com/klauspost/cpuid/v2 v2.2.8 // indirect
 	github.com/nxadm/tail v1.4.11 // indirect
 	github.com/onsi/ginkgo/v2 v2.19.0 // indirect
 	github.com/oschwald/maxminddb-golang v1.13.0 // indirect
@@ -85,8 +85,8 @@ require (
 	github.com/stretchr/testify v1.9.0 // indirect
 	github.com/yusufpapurcu/wmi v1.2.4 // indirect
 	go.uber.org/mock v0.4.0 // indirect
-	golang.org/x/exp v0.0.0-20240531132922-fd00a4e0eefc // indirect
-	golang.org/x/mod v0.17.0 // indirect
+	golang.org/x/exp v0.0.0-20240613232115-7f521ea00fb8 // indirect
+	golang.org/x/mod v0.18.0 // indirect
 	golang.org/x/sync v0.7.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
